@@ -3,3 +3,13 @@ C:\Users\taaan\Desktop\прог\GB\Итог_раб_1\the resulting work\Resultin
 C:\Users\taaan\Desktop\прог\GB\Итог_раб_1\the resulting work\ResultingWork\obj\Debug\net6.0\ResultingWork.AssemblyInfoInputs.cache
 C:\Users\taaan\Desktop\прог\GB\Итог_раб_1\the resulting work\ResultingWork\obj\Debug\net6.0\ResultingWork.AssemblyInfo.cs
 C:\Users\taaan\Desktop\прог\GB\Итог_раб_1\the resulting work\ResultingWork\obj\Debug\net6.0\ResultingWork.csproj.CoreCompileInputs.cache
+C:\Users\taaan\Desktop\прог\GB\Итог_раб_1\the resulting work\ResultingWork\bin\Debug\net6.0\ResultingWork.exe
+C:\Users\taaan\Desktop\прог\GB\Итог_раб_1\the resulting work\ResultingWork\bin\Debug\net6.0\ResultingWork.deps.json
+C:\Users\taaan\Desktop\прог\GB\Итог_раб_1\the resulting work\ResultingWork\bin\Debug\net6.0\ResultingWork.runtimeconfig.json
+C:\Users\taaan\Desktop\прог\GB\Итог_раб_1\the resulting work\ResultingWork\bin\Debug\net6.0\ResultingWork.dll
+C:\Users\taaan\Desktop\прог\GB\Итог_раб_1\the resulting work\ResultingWork\bin\Debug\net6.0\ResultingWork.pdb
+C:\Users\taaan\Desktop\прог\GB\Итог_раб_1\the resulting work\ResultingWork\obj\Debug\net6.0\ResultingWork.dll
+C:\Users\taaan\Desktop\прог\GB\Итог_раб_1\the resulting work\ResultingWork\obj\Debug\net6.0\refint\ResultingWork.dll
+C:\Users\taaan\Desktop\прог\GB\Итог_раб_1\the resulting work\ResultingWork\obj\Debug\net6.0\ResultingWork.pdb
+C:\Users\taaan\Desktop\прог\GB\Итог_раб_1\the resulting work\ResultingWork\obj\Debug\net6.0\ResultingWork.genruntimeconfig.cache
+C:\Users\taaan\Desktop\прог\GB\Итог_раб_1\the resulting work\ResultingWork\obj\Debug\net6.0\ref\ResultingWork.dll
