@@ -7,27 +7,27 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
-// string[] CreateArray()
-// {
-//     Console.Write("Введите количество элементов в массиве -> ");
-//     int len = Convert.ToInt32(Console.ReadLine());
-//     string[] array = new string[len];
-//     for (int i = 0; i < len; i++)
-//     {
-//         Console.Write($"Введите значение {i + 1}-го элемента -> ");
-//         var setChar = Console.ReadLine();
-//         if (setChar != null && setChar.Trim()!= "")
-//         {
-//             array[i] = setChar.TrimStart().TrimEnd();
-//         }
-//         else
-//         {
-//             Console.WriteLine("Ничего не введено, повторите ввод");
-//             i--;
-//         }
-//     }
-//     return array;
-// }
+string[] CreateArray()
+{
+    Console.Write("Введите количество элементов в массиве -> ");
+    int len = Convert.ToInt32(Console.ReadLine());
+    string[] array = new string[len];
+    for (int i = 0; i < len; i++)
+    {
+        Console.Write($"Введите значение {i + 1}-го элемента -> ");
+        var setChar = Console.ReadLine();
+        if (setChar != null && setChar.Trim()!= "")
+        {
+            array[i] = setChar.TrimStart().TrimEnd();
+        }
+        else
+        {
+            Console.WriteLine("Ничего не введено, повторите ввод");
+            i--;
+        }
+    }
+    return array;
+}
 
 void PrintArray(string[] array)
 {
@@ -68,7 +68,8 @@ string[] CreateNewArray(string[] array, int count)
     return newArr;
 }
 
-string[] array = { "lol", "2", "old", ":-)", "grow", "5764", "333", "milk", "cooky" };
+// string[] array = { "lol", "2", "old", ":-)", "grow", "5764", "333", "milk", "cooky" };
+string[] array = CreateArray();
 int count = FindNumberItems(array);
 if (count > 0)
 {
