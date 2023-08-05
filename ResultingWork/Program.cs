@@ -6,3 +6,25 @@
 // [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
+
+string[] CreateArray()
+{
+    Console.Write("Введите количество элементов в массиве -> ");
+    int len = Convert.ToInt32(Console.ReadLine());
+    string[] array = new string[len];
+    for (int i = 0; i < len; i++)
+    {
+        Console.Write($"Введите значение {i + 1}-го элемента -> ");
+        var setChar = Console.ReadLine();
+        if (setChar != null && setChar.Trim()!= "")
+        {
+            array[i] = setChar.TrimStart().TrimEnd();
+        }
+        else
+        {
+            Console.WriteLine("Ничего не введено, повторите ввод");
+            i--;
+        }
+    }
+    return array;
+}
